@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- SECTION GROCERY CENTER -->
+    <section id="grocery-center">
+      <!-- FORM -->
+      <form id="form">
+        <!-- alert message -->
+        <div class="alert-msg">
+          <p class="alert"></p>
+        </div>
+
+        <!--title -->
+        <div class="title">
+          <h2>add groceries</h2>
+        </div>
+        <!-- input container -->
+        <div class="input-container">
+          <input type="text" class="text-input" placeholder="e.g. egg" />
+          <input type="submit" class="btn" value="Add" />
+        </div>
+      </form>
+      <!-- LIST -->
+      <ul class="items-list">
+        <!-- <li class="item">
+            <p class="list-text">item</p>
+            <div class="btns">
+                <i class="fa-solid fa-pen-to-square edit"></i>
+                <i class="fa-solid fa-trash delete"></i>
+            </div>
+        </li> -->
+      </ul>
+      <!-- clear items -->
+      <div class="clear-items">
+        <p class="clear">clear items</p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
